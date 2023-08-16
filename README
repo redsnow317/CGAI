@@ -1,0 +1,29 @@
+1. **Python Environment:**
+   - Make sure you have Python 3.x installed on your system.
+
+2. **OSINT Tools:**
+   - Shodan
+   - TheHarvester
+   - Recon-ng
+
+3. **API Keys:**
+   - Shodan API key: Replace `"YOUR_SHODAN_API_KEY"` in the code with your actual Shodan API key.
+
+4. **Required Libraries:**
+   - The code uses the `subprocess`, `os`, `datetime`, and `webbrowser` libraries, which are part of the Python standard library.
+
+5. **Command-Line Tools:**
+   - Ensure that the Shodan CLI, TheHarvester, and Recon-ng are installed and accessible in your system's command-line interface. Make sure their executable paths are included in your system's PATH environment variable.
+
+6. **Folder Setup:**
+   - Create a folder named `"case_files"` in the same directory where the script is located. The script will save case files in this folder.
+
+7. **Internet Access:**
+   - The code uses web scraping to perform an informative search. Make sure your system has internet access to open web pages.
+
+8. **Usage:**
+   - Run the script and follow the user menu to perform OSINT tasks and create case files.
+
+Please replace placeholders such as `"YOUR_SHODAN_API_KEY"` with your actual API keys and ensure that the required tools are installed and configured properly on your system.
+
+As a note, while the provided code gives a basic framework for OSINT tasks, actual implementation might require more sophisticated handling of various APIs, error cases, and customization based on your specific OSINT needs and tools of choice.
